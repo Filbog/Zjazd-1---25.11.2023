@@ -1,19 +1,21 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
+
 #container {
     width: 1000px;
     margin: 0 auto;
     border: 2px solid magenta;
 }
+
 /* header */
 header {
     padding: 20px 15px;
@@ -22,7 +24,7 @@ header {
     justify-content: space-between;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
@@ -37,10 +39,10 @@ nav ul li a {
     color: black;
     text-decoration: none;
     transition: 0.5s color;
-    
+
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: red;
 }
 
@@ -49,33 +51,33 @@ nav ul li a:hover{
 }
 
 /* Main  */
-main{
+main {
     display: flex;
     justify-content: space-between;
 }
 
-main article{
+main article {
     width: 70%;
     background: #F6E8EA;
     padding: 30px;
 }
 
-main article img{
+main article img {
     border: 3px red dotted;
     border-radius: 5px;
 }
 
-main aside{
+main aside {
     width: 30%;
     background: #9D8C8C;
     padding: 20px;
 }
 
-.widget{
+.widget {
     margin-bottom: 40px;
 }
 
-.widget img{
+.widget img {
     float: left;
     margin-right: 6px;
     margin-top: 3px;
@@ -83,54 +85,85 @@ main aside{
     border-radius: 5px;
 }
 
+/* ASIA */
+form label {
+    max-width: 150px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+button {
+    width: 50%;
+    border: none;
+    background-color: hsl(201, 100%, 26%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: hsl(201, 91%, 35%);
+}
+
+button:active {
+    background-color: hsl(201, 93%, 40%);
+}
+
+/* ASIA-KONIEC */
+
 /* Footer */
 
-footer{
+footer {
     display: flex;
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.footer-element{
+.footer-element {
     flex: 1;
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
 }
 
-footer p{
+footer p {
     text-align: center;
 }
 
-footer ul{
+footer ul {
     list-style: none;
 }
-footer a, i{
+
+footer a, i {
     text-decoration: none;
     color: black;
     transition: 0.3s color;
 }
 
-footer a:hover, i:hover{
+footer a:hover, i:hover {
     color: grey;
 }
 
-#footer-icons{
+#footer-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 1.5em;
     color: black;
     padding-left: 8px;
     padding-right: 8px;
 }
-
-
-
-
-
-
