@@ -47,6 +47,15 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16px;
+
+    font-family: 'Open Sans', sans-serif;
+  
+    /* color: red; */
+}
+
+/* custom cursor */
+*{
+    cursor: url(/cursor.cur) 15 15, auto;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -265,4 +274,3 @@ i:hover {
   padding-left: 8px;
   padding-right: 8px;
 }
-
