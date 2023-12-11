@@ -274,3 +274,41 @@ i:hover {
   padding-left: 8px;
   padding-right: 8px;
 }
+
+
+/* Asia */
+.forms{
+    display: flex;
+}
+form label {
+    max-width: 150px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+button {
+    width: 50%;
+    border: none;
+    background-color: hsl(201, 100%, 26%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: hsl(201, 91%, 35%);
+}
+
+button:active {
+    background-color: hsl(201, 93%, 40%);
+}
