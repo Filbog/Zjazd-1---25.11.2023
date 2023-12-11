@@ -7,6 +7,8 @@ body{
     /* color: red; */
 }
 
+
+/* custom cursor */
 *{
     cursor: url(/cursor.cur) 15 15, auto;
 }
@@ -136,4 +138,3 @@ footer a:hover, i:hover{
 }
 
 
-/* custom cursor */
