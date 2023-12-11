@@ -55,16 +55,15 @@ body{
 
 /* custom cursor */
 *{
-    cursor: url(/cursor.cur) 15 15, auto;
+    cursor: url(/cursor.cur) 8 8, pointer;
     font-family: 'Fira Sans', sans-serif;
 }
-
 img{
     max-width: 100%;
     height: auto;
 }
 #container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 2px solid rgb(47, 0, 255);
     border-radius: 15px;
@@ -214,6 +213,7 @@ main aside{
 aside p {
     font-size: 25px;
     color: rgb(215, 20, 43);
+}
 
 .widget{
     margin-bottom: 40px;
@@ -240,7 +240,7 @@ footer {
   flex: 1;
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 footer p {
